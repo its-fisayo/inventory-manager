@@ -128,7 +128,7 @@ export default function User() {
 
     try {
       setIsSaving(true);
-      await editUserStatus({ id: selectedUserS.id, data: { status: selectedStatus } });
+      await editUserStatus({ id: selectedUserS.id, data: { isActive: selectedStatus } });
       toast.success("User status updated successfully.")
       setSelectedUserS(null);
     } catch (error) {

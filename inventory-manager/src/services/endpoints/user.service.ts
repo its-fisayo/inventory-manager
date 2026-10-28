@@ -18,6 +18,6 @@ export const updateUserRole = async (id: string, data: {role: string}) => {
   return api.patch(`api/User/${id}/role`, data);
 };
 
-export const updateUserStatus = async (id: string, data: {status: boolean}) => {
+export const updateUserStatus = async (id: string, data: {isActive: boolean}) => {
   return api.patch(`api/User/${id}/status`, data);
 };

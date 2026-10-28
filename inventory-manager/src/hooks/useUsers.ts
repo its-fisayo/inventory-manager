@@ -19,7 +19,7 @@ type UpdateUserRoleInput = {
 
 type UpdateUserStatusInput = {
   id: string;
-  data: {status: boolean};
+  data: {isActive: boolean};
 };
 
 export const useUsers = (page: number, pageSize: number, search: string) => {
