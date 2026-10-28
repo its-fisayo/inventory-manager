@@ -1,0 +1,48 @@
+.testing{
+    text-wrap: nowrap;
+    font-size: 14px;
+}
+
+
+.arrow-button{
+    border-color: #711460;
+    color: #711460;
+    height: 28px;
+    width: 28.07px;
+    border-radius: 6px;
+}
+
+.arrow{
+    padding: 9.67px 10px 12px 11px;
+    font-size: 20px;
+}
+
+.number{
+    padding: 9.67px 10px 12px 11px;
+    margin-right: 12px;
+}
+
+
+.number-button{
+    height: 28px;
+    width: 28.07px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.selection{
+    border-color: #711460;
+    color: #711460;
+}
+
+.perpage{
+    color: #323232;
+    font-family: "Inter", sans-serif;
+}
+
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 14px;
+}

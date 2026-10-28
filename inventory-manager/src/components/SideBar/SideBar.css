@@ -1,0 +1,184 @@
+.SideBar {
+    height: 100vh;
+    width: 257px;
+    background-color: #3D0B34;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.ogo {
+    padding-top: 21px;
+    padding-left: 16px;
+    padding-right: 73px;
+
+}
+
+.general {
+  margin-top: 24px;
+  margin-left: 19px;
+  margin-right: 32px;
+  color: white;
+  font-size: 16px;
+}
+
+.pip {
+  padding-bottom: 20px;
+}
+
+.go {
+  margin-bottom: 20px;
+}
+
+.s {
+  margin-top: 24px;
+  color: #F8F9FA;
+}
+
+.ss {
+  color: white;
+  margin-bottom: 22px;
+  margin-top: 28px;
+}
+
+.sss {
+  color: #f8f9fa;
+  margin-bottom: 22px;
+}
+
+.oth {
+  margin-bottom: 16px;
+}
+
+
+.nav-div {
+  display: flex;
+  height: 31px;
+  margin-bottom: 20px;
+  color: #969393;
+  width: 225px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.nav-div.active {
+  color: #edddf1;
+}
+
+.nav-div.active svg {
+  color: #edddf1;
+}
+
+.submenu-link {
+  text-decoration: none;
+  color: #8f8f8f;
+}
+
+.submenu-link.active {
+  color: #edddf1;
+  font-weight: 600;
+}
+
+.inventory-container {
+  width: 100%;
+}
+
+.inventory-header {
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  margin-left: auto;
+  margin-right: 0px;
+ transition: transform 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+  /* Rotates the right-facing chevron perfectly downwards */
+.rotate {
+  transform: rotate(90deg); 
+}
+
+  /* 1. Reset top margin to 0 so it doesn't break layout when closed */
+  /* Smooth transition for both height and margin expansion */
+.inventory-menu {
+  list-style: none;
+  margin: 0 0 0 36px; 
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, margin-top 0.3s ease; 
+}
+
+/* 2. Apply the negative top margin ONLY when the menu is active/open */
+/* Creates clean breathing room above the next menu item */
+/* Pulls it up perfectly to the text without breaking the sidebar */
+.inventory-menu.open {
+  max-height: 200px;
+  margin-top: -12px; 
+  margin-bottom: 15px; 
+}
+
+/* Clean vertical spacing between internal items */
+/* Removed the messy -1px margin */
+.inventory-menu li {
+  padding: 4px 0; 
+  margin-left: 0;
+}
+
+/* Gives links a clean layout default matching nav text */
+.inventory-menu li {
+  text-decoration: none;
+  color: #969393; 
+  font-size: 14px;
+}
+
+.inventory-menu li a:hover {
+  color: #edddf1;
+}
+
+.nav-div:hover,
+.nav-div:active {
+  color: #edddf1;
+}
+
+.nav-text {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.nav-text:focus {
+  color: #EDDDF1;
+}
+li{
+    text-decoration: none;
+}
+@media (min-width: 1440px) {
+  .s {
+    margin-top: 55.79px;
+  }
+
+  .general {
+    margin-top: 50px;
+  }
+
+  .sss {
+    margin-top: 28px;
+    margin-bottom: 38px;
+  }
+}
+
+@media (max-width: 500px) {
+  .SideBar {
+    display: none;
+  }
+}

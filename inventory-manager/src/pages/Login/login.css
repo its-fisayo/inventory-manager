@@ -1,0 +1,86 @@
+/* Custom Fade-in for the splash screen background overlay */
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Staggered wave bounce for individual characters */
+.animate-letter-bounce {
+  animation: letterBounce 1.2s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+}
+
+@keyframes letterBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-24px); /* Controls how high each letter pops up */
+  }
+  60% {
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsive alignment constraints */
+@media(max-width: 500px) {
+    .picture-div {
+        width: 110%;
+    }
+
+    .logo {
+        top: 20%;
+        width: 172px;
+        height: 151px;
+    }
+
+    .subtract-div {
+        top: auto;
+        bottom: 0px;
+        height: 100vw;
+        width: 100%;
+        transform: rotate(90deg);
+    }
+
+    .subtract-div-1 {
+        bottom: 150px;
+    }
+
+    .form-div {
+        width: 357px;
+        height: 100%;
+        margin: auto;
+        top: 0;
+        position: absolute;
+        left: 150px;
+        transform: rotate(-90deg);
+    }
+
+    .form-header-div {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .form-header-div h2 {
+        font-size: 32px;
+    }
+
+    .form {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}

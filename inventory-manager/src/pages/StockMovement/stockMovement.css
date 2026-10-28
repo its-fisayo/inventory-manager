@@ -1,0 +1,34 @@
+Button.btn-border{
+  border: 1px solid #9F9D9D;
+}
+
+Button.border-btn2{
+  width: 10rem;
+}
+
+.astatus-cards {
+  /* color: white; */
+  height: 30px;
+  width: 99px;
+  border-radius: 12px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.outcome-cards {
+  /* color: white; */
+  height: 30px;
+  width: 99px;
+  border-radius: 12px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  white-space: none;
+}
+
+.input-field {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+}

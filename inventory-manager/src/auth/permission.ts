@@ -1,0 +1,33 @@
+export const Permission = {
+  // Users
+  MANAGE_USERS: "MANAGE_USERS",
+
+  // Assets
+  VIEW_ASSETS: "VIEW_ASSETS",
+  CREATE_ASSETS: "CREATE_ASSETS",
+  MANAGE_ASSETS: "MANAGE_ASSETS",
+
+  // Movements
+  VIEW_MOVEMENT: "VIEW_MOVEMENT",
+
+  //Issuance
+  MANAGE_ISSUANCE: "MANAGE_ISSUANCE",
+
+  // Supply Management
+  MANAGE_ORDERS: "MANAGE_ORDERS",
+  VIEW_ORDERS: "VIEW_ORDERS",
+  CREATE_ORDERS: "CREATE_ORDERS",
+
+  MANAGE_VENDORS: "MANAGE_VENDORS",
+  VIEW_VENDORS: "VIEW_VENDORS",
+  CREATE_VENDORS: "CREATE_VENDORS",
+
+  MANAGE_STOCKS: "MANAGE_STOCKS",
+  VIEW_STOCKS: "VIEW_STOCKS",
+  CREATE_STOCKS: "CREATE_STOCKS",
+
+  // Profile
+  VIEW_PROFILE: "VIEW_PROFILE",
+} as const;
+
+export type Permission = (typeof Permission)[keyof typeof Permission];

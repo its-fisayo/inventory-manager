@@ -1,0 +1,266 @@
+.overview1 {
+    width: 24%;
+    height: 6.1875rem;
+    position: relative;
+}
+
+.overview-1-inside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0rem;
+    left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.overview-2-inside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+.overview-2-2-inside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0rem;
+    left: 0rem;
+    padding: 1.25rem;
+}
+
+.overview-2-3-inside {
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    padding: 1.25rem;
+}
+
+.overview2-1 {
+    width: 15.625rem;
+    height: 14.75rem;
+    background-color: #E1BEE7;
+    position: relative;
+}
+
+.overview2-2 {
+    width: 29.125rem;
+    height: 14.625rem;
+    border: 2px solid #E1BEE7;
+    background-color: #EBEBEB;
+    position: relative;
+}
+
+.overview2-3 {
+    width: 19.4375rem;
+    height: 14.625rem;
+    border: 1px solid #777376;
+    position: relative;
+}
+
+.overview3{
+    height: 22.8125rem;
+}
+
+.request-bar-out {
+    width: 16rem;
+    height: 8.75rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.request-bar-out::-webkit-scrollbar {
+    display: none;
+}
+
+.request-text-bars {
+    height: 1.125rem;
+    width: 100%;
+    margin-bottom: 1.125rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.request-text {
+    font-weight: 700;
+    font-size: 0.9375rem;
+}
+
+.request-bar {
+    height: 0.9375rem;
+    width: 10.625rem;
+    background-color: #F1F1F1;
+    display: flex;
+}
+
+.request-bar-in {
+    width: 60%;
+    background-color: #910E7A;
+}
+
+.request-bar p {
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+    font-style: bold;
+}
+
+.legend-box {
+    width: 1.9375rem;
+    height: 0.5rem;
+    margin-right: 0.3125rem;
+}
+
+.legend-card {
+    border: 0.03125rem solid #141414CC;
+    box-shadow: none;
+    height: 1.75rem;
+    width: 9.1875rem;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+.legend-card p {
+    font-weight: 400;
+    font-size: 0.9375rem;
+}
+
+.report-legends-div div {
+    display: flex;
+}
+
+.report-legend {
+    width: 2.4375rem;
+    height: 1.375rem;
+    border-radius: 0%;
+    padding: 0%;
+    box-shadow: none;
+    margin-right: 0.625rem;
+}
+
+.report-legend1 {
+    background-color: #711460;
+}
+
+.report-legend2 {
+    background-color: #9E3D8D;
+}
+
+.report-legend3 {
+    background-color: #E1BEE7;
+}
+
+.engine-btn {
+    width: 85px;
+    height: 30px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+@media(min-width: 1440px) {
+    .overview1 {
+        width: 16.3125rem;
+    }
+
+    .overview2-1 {
+        width: 16.875rem;
+    }
+
+    .overview2-2 {
+        width: 29.125rem;
+    }
+
+    .overview2-3 {
+        width: 20.6875rem;
+    }
+
+    .legend-card {
+        width: 7.5rem;
+    }
+}
+
+@media(min-width: 1280px) {
+
+}
+
+@media(max-width: 500px) {
+    .hide-stuff {
+        display: none;
+    }
+
+    .overview1-cards-div {
+        width: 22.5rem;
+        height: 9rem;
+        flex-wrap: wrap;
+    }
+
+    .overview-div2 {
+        width: 22.5rem;
+    }
+
+    .overview3 {
+        width: 22.5rem;
+    }
+
+    .cards-body {
+        padding-left: 0;
+    }
+
+    .overview1-div {
+        padding-left: 0.9375rem;
+    }
+
+    .overview1 {
+        width: 11rem;
+        height: 3.96875rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1320px) {
+    .overview1 {
+        width: 12.5rem;
+    }
+
+    .overview2-1 {
+        width: 13.125rem;
+    }
+
+    .overview2-2 {
+        width: 24.125rem;
+    }
+
+    .overview2-3 {
+        width: 16.9375rem;
+    }
+
+    .request-bar-out {
+        width: 12.875rem;
+    }
+
+    .request-bar {
+        width: 7.5rem;
+    }
+    
+    .legend-card {
+        width: 7.5rem;
+    }
+}

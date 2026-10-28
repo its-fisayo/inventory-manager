@@ -1,0 +1,13 @@
+Button.btn2{
+width: 170px;
+  border-radius: 8px;
+  gap: 8px;
+  border: 1px solid;
+  margin-left: 20px;
+}
+
+.input-field {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+}

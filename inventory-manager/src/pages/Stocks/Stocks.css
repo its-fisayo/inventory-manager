@@ -1,0 +1,17 @@
+.search-category {
+    width: 284px;
+    height: 64px;
+}
+
+.search-category h3 {
+    color: #141414CC;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.categories {
+    border: 1px solid #141414CC;
+    border-radius: 10px;
+    width: 270px;
+}

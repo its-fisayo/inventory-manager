@@ -1,0 +1,8 @@
+.date-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+}
+
+Button.btn2{
+    height: 40px;
+}

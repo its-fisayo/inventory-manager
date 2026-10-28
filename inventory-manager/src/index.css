@@ -1,0 +1,15 @@
+@import "tailwindcss";
+*{
+  font-family: "Public Sans", sans-serif;
+}
+
+
+button.change{
+    background: #9b1919;
+    color: aqua;
+}
+
+button.change:hover{
+    background: #000;
+    color: bisque;
+}

@@ -1,0 +1,107 @@
+.order-main-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #711460;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.date-input {
+  width: 250px;
+  height: 40px;
+}
+
+.input-field {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.line-items-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.line-items-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #333333;
+  margin: 0;
+}
+
+.add-product-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 150px; /* Overrides default full-width block button */
+}
+
+.table-embed {
+  position: relative;
+}
+
+/* Custom Bottom Calculation Insertion Layer styling */
+.table-summary-total-row {
+  display: flex;
+  align-items: center;
+  background-color: #f7f5f9;
+  border-top: 1px solid #e0e0e0;
+  padding: 1.15rem 1.5rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.total-label-cell {
+  flex: 2;
+  letter-spacing: 0.05em;
+}
+
+.summary-columns-grid {
+  flex: 3;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr 1fr;
+  align-items: center;
+  padding-right: 3rem; /* Spacers align numerical sums precisely with columns */
+}
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.order-actions-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.btn-cancel, .btn-submit {
+  max-width: 180px; /* Restricts action execution panels from expanding full-screen width */
+}
+
+.x-button {
+  height: 41px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-order-form label {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  color: #141414CC;
+}
+
+.form-input {
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  background-color: #711460;
+  width: 140px;
+}
