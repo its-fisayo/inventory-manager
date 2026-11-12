@@ -271,10 +271,12 @@ export default function AssetManagement() {
 
       {/* DETAILED PRODUCT VIEW MODAL */}
       {selectedProduct && (
+        <>
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
+          className="fixed inset-0 z-40 bg-black/80"
           onClick={() => setSelectedProduct(null)}
-        >
+        />
+        <div className="fixed flex items-center z-50 justify-center  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4">
           <div className="bg-white rounded-2xl w-full max-w-[440px] shadow-2xl overflow-hidden flex flex-col border border-gray-100">
             {/* Scrollable Container */}
             <div className="p-6 overflow-y-auto max-h-[80vh] space-y-5">
@@ -385,6 +387,7 @@ export default function AssetManagement() {
             </div>
           </div>
         </div>
+        </>
       )}
     </div>
   );
